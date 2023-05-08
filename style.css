@@ -47,7 +47,7 @@ button:hover {
 	max-width: 1920px;
 	height: 100%;
 	margin: 0 auto;
-}	
+}
 
 .wrapper {
 	max-width: 1440px;
@@ -287,6 +287,13 @@ header {
 	border-radius: 3px;
 }
 
+.blog__box video {
+	width: 300px;
+	height: 450px;
+	object-fit: cover;
+	border-radius: 3px;
+}
+
 .blog__desc {
 	max-width: 300px;
 	color: var(--grey);
@@ -354,6 +361,11 @@ footer {
 	margin-top: 15px;
 	color: var(--grey);
 	font-family: "Lato", sans-serif;
+}
+
+.watermark a {
+	text-decoration: none;
+	color: var(--grey);
 }
 
 .italic {
